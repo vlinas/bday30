@@ -1,0 +1,155 @@
+html, body, p, li, h1, h2, h3, h4 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+h1, h2, h3, h4 {
+    color: rgb(41, 41, 41);
+    font-weight: 600 !important;
+}
+
+html, body {
+    background: rgb(255,235,246);
+    background: radial-gradient(circle, rgba(255,235,246,1) 0%, rgba(238,255,254,1) 100%);
+
+}
+
+.linas {
+    background: transparent !important;
+}
+
+p {
+    font-weight: 400;
+    color: #505050;
+    line-height: 1.7;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+.btn {
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid transparent;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(253, 234, 241);
+    color: rgb(255, 0, 122);
+    font-size: 16px;
+    font-weight: 500;
+    &:hover {
+        background-color: rgb(252, 220, 232);
+    }
+    &:disabled {
+        background: #e0e0e0;
+        color: #505050;
+        &:hover {
+            cursor: unset;
+        }
+    }
+}
+
+.dovanos {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.box {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 1%) 0px 0px 1px, rgb(0 0 0 / 4%) 0px 4px 8px, rgb(0 0 0 / 4%) 0px 16px 24px, rgb(0 0 0 / 1%) 0px 24px 32px;
+    border-radius: 30px;
+    padding: 35px;
+    &.content {
+        max-width: 800px;
+    }
+    .date {
+        background: #eceff1;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 50px;
+        font-size: 15px;
+        color: #757575;
+        font-weight: 500;
+    }
+}
+
+header {
+    background-color: rgb(253, 234, 241);
+    padding: 13px;
+    position: absolute;
+    width: 100%;
+    h1 {
+        margin-bottom: 0px !important;
+    }
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            max-width: 65px;
+            margin-bottom: 0px;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.top {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .dovanos {
+        padding-top: 120px;
+        padding-bottom: 100px;
+        p {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        .date {
+            font-size: 13px;
+        }
+    }
+    .top {
+        padding-top: 120px;
+        .content {
+            h1 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+  }
