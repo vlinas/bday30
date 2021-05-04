@@ -6,13 +6,14 @@ html, body, p, li, h1, h2, h3, h4 {
 }
 
 h1, h2, h3, h4 {
-    color: rgb(41, 41, 41);
-    font-weight: 600 !important;
+    color: white;
+    // font-weight: 600 !important;
 }
 
 html, body {
-    background: rgb(255,235,246);
-    background: radial-gradient(circle, rgba(255,235,246,1) 0%, rgba(238,255,254,1) 100%);
+    background: #2c3035;
+    // background: radial-gradient(circle, rgba(255,235,246,1) 0%, rgba(238,255,254,1) 100%);
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(33, 114, 229, 0.1) 0%, rgba(33, 36, 41, 0) 100%);
 
 }
 
@@ -22,7 +23,7 @@ html, body {
 
 p {
     font-weight: 400;
-    color: #505050;
+    color: #ffffffd5;
     line-height: 1.7;
 }
 
@@ -30,6 +31,27 @@ main {
     max-width: 1000px;
     margin: auto;
     padding: 0 25px;
+}
+
+.kontaktu-forma {
+    margin-top: 35px;
+    border-top: 2px dotted #6da7fe;
+    padding-top: 35px;
+    input {
+        width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 18px;
+    background: #ffffff05;
+    border: 2px solid #ffffff33;
+    color: white;
+    &:focus {
+        border-color: white !important;
+    }
+    &:focus-visible {
+        outline: none !important;
+    }
+    }
 }
 
 .btn {
@@ -49,12 +71,16 @@ main {
     cursor: pointer;
     position: relative;
     z-index: 1;
-    background-color: rgb(253, 234, 241);
-    color: rgb(255, 0, 122);
+    // background-color: rgb(253, 234, 241);
+    // color: rgb(255, 0, 122);
+    background-color: rgba(21, 61, 111, 0.84);
+    color: rgb(109, 168, 255);
     font-size: 16px;
     font-weight: 500;
+    transition: .3s;
     &:hover {
-        background-color: rgb(252, 220, 232);
+        background-color: rgb(33, 114, 229);
+        color: rgb(255, 255, 255);
     }
     &:disabled {
         background: #e0e0e0;
@@ -65,19 +91,34 @@ main {
     }
 }
 
+a {
+    color: rgb(33, 114, 229);
+}
+
 .dovanos {
     padding-top: 150px;
     padding-bottom: 150px;
 }
 
+.cool {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .box {
     width: 100%;
-    background: rgb(255, 255, 255);
+    // background: rgb(255, 255, 255);
+    // box-shadow: rgb(0 0 0 / 1%) 0px 0px 1px, rgb(0 0 0 / 4%) 0px 4px 8px, rgb(0 0 0 / 4%) 0px 16px 24px, rgb(0 0 0 / 1%) 0px 24px 32px;
+    background: rgb(33, 36, 41);
     box-shadow: rgb(0 0 0 / 1%) 0px 0px 1px, rgb(0 0 0 / 4%) 0px 4px 8px, rgb(0 0 0 / 4%) 0px 16px 24px, rgb(0 0 0 / 1%) 0px 24px 32px;
     border-radius: 30px;
+    border-radius: 30px;
     padding: 35px;
+    color: white;
     &.content {
-        max-width: 800px;
+        max-width: 650px;
     }
     .date {
         background: #eceff1;
@@ -91,7 +132,8 @@ main {
 }
 
 header {
-    background-color: rgb(253, 234, 241);
+    background-color: transparent;
+    border-bottom: 1px solid #ffffff1c;
     padding: 13px;
     position: absolute;
     width: 100%;
