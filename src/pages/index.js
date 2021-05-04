@@ -19,7 +19,7 @@ const IndexPage = () => (
     <p>Gimtadienio metu bus galima laimėti vieną iš trijų taurių: "Greičiausias", "Taikliausias" ir "Protingiausias". Ypatingas prizas atiteks žmogui laimėjusiam dvi taures, todėl stengtis bus verta!</p>
     <p></p>
     <p>Veikla bus aktyvi, todėl reikėtų pasiimti patogius drabužius, rankšluostį+maudymkes kubilui ir 2 EUR pošalmiui kartingams. <u>Puoštis nebūtina</u>, bet pagal norą.</p>
-    <p>Silpnesniais gėrimais bus pasirūpinta, bet dalyvių prašau pasirūpinti stipresniais gėrimais.</p>
+    <p>Silpnesniais gėrimais bus pasirūpinta, bet dalyvių prašau pasirūpinti stipresniais gėrimais sau ir savo draugui.</p>
     <p>
       <b>Data:</b> 2021-05-15 Šeštadienis<br/>
       <b>Vieta:</b> Sodyba Kačerginėje (netoli piliakalnio) <br/>
