@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Rasa Sasnauskaitė`,
-    description: `Su Gimtadieniu!`,
+    title: `Linas Vildžiūnas`,
+    description: `30`,
     author: `@linasv`,
   },
   plugins: [
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#fdeaf1`,
         theme_color: `#fdeaf1`,
         display: `minimal-ui`,
-        icon: `src/images/rasa.png`, // This path is relative to the root of the site.
+        icon: `src/images/linas.jpg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,
