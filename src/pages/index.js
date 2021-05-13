@@ -25,13 +25,11 @@ const IndexPage = () => (
       <b>Vieta:</b> Sodyba Kačerginėje (netoli piliakalnio) <br/>
       <b>Pradžia:</b> 14:00 (kartingai <a href="https://www.google.com/maps/place/Gokart+track+%E2%80%9CKartlandas+Kaunas%E2%80%9D+Raudondvario+pl.+164A/@54.9143807,23.8424221,15z/data=!4m2!3m1!1s0x0:0x7e68bab9aa515d2c?sa=X&ved=2ahUKEwj8-q7U37DwAhWHmxQKHY1ACYEQ_BIwFXoECEoQBQ">Kartlande</a>) <br/>
     </p>
-    <p>Žemiau įvesk savo vardą jei dalyvausi!</p>
     <p>- Linas</p>
 
-    <form name='kontaktu-forma' className="kontaktu-forma" action='/cool' data-netlify='true' data-netlify-honeypot='bot-field' method='post' autoComplete="on">
+    {/* <form name='kontaktu-forma' className="kontaktu-forma" action='/cool' data-netlify='true' data-netlify-honeypot='bot-field' method='post' autoComplete="on">
     <h3>Dalyvio anketa:</h3>
               <div className="form-group">
-                {/* <label className="label">Vardas <span>*</span></label> */}
                 <div className="control">
                   <input type="hidden" name="bot-field" />
                   <input type="hidden" name="form-name" value="kontaktu-forma" />
@@ -40,7 +38,7 @@ const IndexPage = () => (
               </div>
 
               <button className='btn btn-primary' id='form-submit-btn' type='submit'>Dalyvausiu!</button>
-            </form>
+            </form> */}
 
     </div>
     </div>
